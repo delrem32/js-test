@@ -1,3 +1,21 @@
 h1, h2 {
   font-family: Lato;
 }
+.square {
+  width: 150px;
+  height: 100px;
+  background: black;
+  margin: 5px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.start {
+  display: flex;
+}
+.end {
+  display: flex;
+  margin-left: auto;
+}
